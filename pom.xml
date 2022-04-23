@@ -81,6 +81,19 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--    MySQl   -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.28</version>
+        </dependency>
+
+        <!--    C3P0   -->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.5</version>
+        </dependency>
     </dependencies>
 
     <build>

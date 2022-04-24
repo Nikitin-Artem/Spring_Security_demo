@@ -16,6 +16,6 @@ public class DemoController {
     public String showLeaders(){ return "leaders"; }
 
     // Admin home page
-    @GetMapping("/system")
+    @GetMapping("/systems")
     public String showSystems(){ return "systems"; }
 }
